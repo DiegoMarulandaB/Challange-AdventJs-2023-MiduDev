@@ -5,15 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "next lint, eslint . --ext .ts",
-    "prettier": "prettier 'src/**/*.ts'",
-    "prettier:fix": "prettier --write 'src/**/*.ts'",
+    "lint": "eslint .",
+    "prettier": "prettier 'src/**/*.js/*/jsx'",
+    "prettier:fix": "prettier --write 'src/**/*.js'",
     "eslint": "eslint 'src/**/*.ts'",
-    "eslint:fix": "eslint --fix 'src/**/*.ts'",
+    "eslint:fix": "eslint --fix 'src/**/*.js'",
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "Diego Marulanda B. <diegomarulanda87@outlook.com>",
+  "author": "Diego Marulanda B.",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
