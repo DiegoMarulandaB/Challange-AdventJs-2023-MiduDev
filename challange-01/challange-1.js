@@ -20,3 +20,5 @@ function findFirstRepeated(gifts) {
   // If no repeating number is found, return -1
   return -1;
 }
+// to define findFirstRepeated(), but remove findFirstRepeated when running the code
+findFirstRepeated();
