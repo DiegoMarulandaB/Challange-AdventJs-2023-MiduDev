@@ -5,6 +5,7 @@ function findFirstRepeated(gifts) {
 
   const assignedNumbers = {};
 
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < gifts.length; i++) {
     const currentNumber = gifts[i];
 

@@ -10,7 +10,8 @@
     "prettier:fix": "prettier --write 'src/**/*.js'",
     "eslint": "eslint 'src/**/*.ts'",
     "eslint:fix": "eslint --fix 'src/**/*.js'",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "pre-commit": "npm run lint"
   },
   "keywords": [],
   "author": "Diego Marulanda B.",
