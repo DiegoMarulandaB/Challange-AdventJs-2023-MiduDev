@@ -10,8 +10,6 @@ const roadArr = road.replaceAll('S', '.').split('');
 
     if (i < 5) {
       if (nextChar === '|') {
-        // Esta línea es redundante, puedes eliminarla
-        // position = position;
         newRoadStatus[position] = 'S';
       } else {
         newRoadStatus[position] = 'S';
